@@ -2,7 +2,7 @@ import styles from "./SearchBar.module.css";
 import toast from "react-hot-toast";
 
 export interface SearchBarProps {
-  onSubmit: (search: string) => Promise<void>;
+  onSubmit: (search: string) => void;
 }
 
 export default function SearchBar({ onSubmit }: SearchBarProps) {
